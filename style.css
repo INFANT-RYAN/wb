@@ -1,4 +1,5 @@
 body {
+    background-color: #fbe9d0;
     margin: 0%;
     font-family: Arial, sans-serif;
     justify-content: center;
@@ -31,12 +32,12 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #024950;
+    background-color: #50b8b6;
     padding: 10px 20px;
 }
 .logo {
     font-size: 24px;
-    color: white;
+    color: #244855;
     font-weight: bold;
 }
 .nav-links {
@@ -49,7 +50,7 @@ h2{
     margin-left: 20px;
 }
 .nav-links a {
-    color: rgb(212, 203, 203);
+    color: #244855;
     text-decoration: none;
     padding: 8px 16px;
     transition: background-color 0.3s ease;
@@ -130,9 +131,9 @@ textarea{
     font-size: 14px;
 }
 button{
-    background-color: #024950;
+    background-color: #50b8b6;
     outline: #0f1866;
-    color:white;
+    color:#244855;
     border-radius: 5px;
     padding: 5px;
     margin-top: 15px;
@@ -148,9 +149,9 @@ textarea:focus {
     outline: none;
 }
 .footer-container {
-    color: white;
+    color: #244855;
     justify-content: right;
-    background-color: #024950;
+    background-color: #50b8b6;
     display:flex;
     padding-left: 20px ;
 
