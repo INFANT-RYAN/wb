@@ -157,14 +157,26 @@ textarea:focus {
 
 }
 .project {
-    border-bottom: 1px solid #ccc;
-    padding: 1em 0;
+    margin: 1em ;
+    border: #333;
+    
 }
 
 .project h2 {
     color: #333;
 }
+.project img{
+    height: 100px;
+    float: right;
+
+}
 
 .project p {
-    line-height: 1.6;
+    line-height: 1.8;
+    text-align: left;
+    padding: 1em ;
+}
+h3{
+    padding: 1em ;
+    margin-bottom: 0;
 }
