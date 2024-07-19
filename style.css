@@ -161,3 +161,6 @@ textarea:focus {
     padding-left: 20px ;
 
 }
+p {
+    font-size: 1em;
+}
