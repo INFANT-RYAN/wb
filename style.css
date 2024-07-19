@@ -161,6 +161,15 @@ textarea:focus {
     padding-left: 20px ;
 
 }
-p {
-    font-size: 1em;
+.project {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+}
+
+.project h2 {
+    color: #333;
+}
+
+.project p {
+    line-height: 1.6;
 }
