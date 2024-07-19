@@ -11,7 +11,6 @@ body {
 }
 h2{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 36px;
     text-align: center;
     color: #024950;
     margin-bottom: 3px;
@@ -23,8 +22,6 @@ h2{
 .About{
     margin-top: 5px;
     text-align: center;
-    
-    font-size: 150%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container{
@@ -63,13 +60,8 @@ h2{
     color:white;
     border-radius: 4px;
 }
-.navbar a:active {
-    text-decoration: underline;
-            
-}
 .card,.card1{
     text-align: center;
-    font-size: 120%;
 }
 .card img{
     padding-right: 20px;
@@ -81,6 +73,7 @@ h2{
 }
 .card p{
     margin-top: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .card h4{
     margin-bottom: 0px;
@@ -96,6 +89,7 @@ h2{
 }
 .card1 p{
     margin-top: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .card1 h4{
     margin-bottom: 0px;
