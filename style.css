@@ -1,5 +1,5 @@
 body {
-    background-color: #1a237e;
+    background-color: #d5e4e6;
     margin: 0%;
     font-family: Arial, sans-serif;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
 h2{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color: #024950;
+    color: #072c30;
     margin-bottom: 3px;
 }
 .About p{
@@ -32,12 +32,12 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #50b8b6;
+    background-color: #3498db;
     padding: 10px 20px;
 }
 .logo {
     font-size: 24px;
-    color: #244855;
+    color: #072c30;
     font-weight: bold;
 }
 .nav-links {
@@ -50,7 +50,7 @@ h2{
     margin-left: 20px;
 }
 .nav-links a {
-    color: #244855;
+    color: #072c30;
     text-decoration: none;
     padding: 8px 16px;
     transition: background-color 0.3s ease;
@@ -131,17 +131,17 @@ textarea{
     font-size: 14px;
 }
 button{
-    background-color: #50b8b6;
+    background-color: #3498db;
     outline: #0f1866;
-    color:#244855;
+    color:white;
     border-radius: 5px;
     padding: 5px;
     margin-top: 15px;
     margin-left: 13.5cm;
 }
 button:hover{
-    color: #024950;
-    background-color: #afdde5;
+    color: #0f1866;
+    background-color: white;
 }
 textarea:focus {
     border-color: #6a82fb;
@@ -149,9 +149,9 @@ textarea:focus {
     outline: none;
 }
 .footer-container {
-    color: #244855;
+    color: #072c30;
     justify-content: right;
-    background-color: #50b8b6;
+    background-color: #3498db;
     display:flex;
     padding-left: 20px ;
 
