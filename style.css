@@ -149,6 +149,7 @@ textarea:focus {
     outline: none;
 }
 .footer-container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #072c30;
     justify-content: right;
     background-color: #3498db;
