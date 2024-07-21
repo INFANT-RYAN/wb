@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,34 +10,88 @@
 <body>
     <nav class="navbar">
         <div class="logo">Py Kid</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Profile</a></li>
-                <li><a href="prof_det.html">Activities</a></li>
-                <li><a href="#footer">Contact</a></li>
-            </ul>
+        <ul class="nav-links">
+            <li><a href="index.html">Profile</a></li>
+            <li><a href="#education">Qualification</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-    <div class="container">
-    <h2>About myself</h2>
-    <div class="About"> <p>  I'm Infant Ryan J. , a final-year Computer Science student at St. Joseph's College (Autonomous) with experience in software development, data structures, and algorithms. I’ve worked on projects like Home Automation and interned at Tamil Info Technology, seeking opportunities to contribute to innovative tech solutions.</p></div>
-        <div class="form_container">
-            <h2 id="contact">Contact us</h2>
-            <div class="About"><p>For More info on getting started please contact us</p></div>
-            <form >
-                <table class = "center">
-                 <tr> 
-                    <td><input type="text" placeholder="Name"> </td> 
-                    <td><input type="tel" placeholder="Ph. no."></td>
-                    <td><input type="email" placeholder="Email"></td>
-                </tr>
-                </table>    
-                    <textarea class="center" name="msg" id="msg" placeholder="Message"></textarea> <br>
-                    <strong><button type="submit">Send Message</button></strong>
-            </form>
+    <header class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm Infant Ryan J., a passionate software developer and computer science student.</p>
+        <a href="#about" class="cta-button">Learn More</a>
+    </header>
+    <section id="about" class="about">
+        <h2>About Myself</h2>
+        <p>I'm a final-year Computer Science student at St. Joseph's College (Autonomous) with experience in software development, data structures, and algorithms. I’ve worked on projects like Home Automation and interned at Tamil Info Technology, seeking opportunities to contribute to innovative tech solutions.</p>
+    </section>
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <h3>Software Development</h3>
+            <p>Proficient in developing robust software applications using various programming languages.</p>
         </div>
-    </div>
+        <div class="skill">
+            <h3>Data Structures & Algorithms</h3>
+            <p>Strong understanding of data structures and algorithms to solve complex problems efficiently.</p>
+        </div>
+    </section>
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>St. Joseph's College (Autonomous) - Tiruchirappalli</h3>
+            <p>Bachelor's degree in Computer Science<br> Jun 2022 - May 2025<br> Activities and societies: NCC (AIRWING)</p>
+        </div>
+        <div class="education-item">
+            <h3>St. Marry's Hr. Sec. School - Dindigul</h3>
+            <p>Completed schooling with a focus on Computer Science<br> Secured 96 marks in Computer Science<br> Activities and societies: NCC (Infantry)</p>
+        </div>
+    </section>
+    <section id="certifications" class="certifications">
+        <h2>Certifications</h2>
+        <div class="certification-item">
+            <h3>Introduction to Programming Using Python</h3>
+            <p>GUVI Geek Networks, IITM Research Park<br> Skills: Python (Programming Language)</p>
+        </div>
+        <div class="certification-item">
+            <h3>AI for India</h3>
+            <p>GUVI Geek Networks, IITM Research Park<br> Skills: Python (Programming Language)</p>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <h2>Projects</h2>
+        <div class="portfolio-item">
+            <img src="src/p1.webp" alt="Project Image">
+            <h3>Home Automation</h3>
+            <p>The Home Automation project involves creating a system to control home appliances remotely via Bluetooth. It integrates a Bluetooth module with a microcontroller to enable communication between a mobile app and household devices. The system allows users to turn appliances on or off and monitor their status from anywhere within Bluetooth range. Key features include remote control, automation based on user preferences, and enhanced security integration. The project aims to improve convenience, energy efficiency, and smart home functionality.</p>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>“Infant Ryan is a dedicated and talented developer who consistently delivers high-quality work.”</p>
+            <p class="author">- John Doe, Manager at Tamil Info Technology</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>For more info on getting started please contact us.</p>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="tel" placeholder="Ph. no.">
+            <input type="email" placeholder="Email">
+            <textarea name="msg" id="msg" placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
     <footer class="footer">
         <div class="footer-container">
-                <p><strong>Contact </strong>   <br> Email: ini0k17@gmail.com <br> Phone: +91 8903369700 <br> &copy; 2024 MyWebsite. All rights reserved.</p>
+            <p><strong>Contact</strong><br>Email: ini0k17@gmail.com<br>Phone: +91 8903369700<br>&copy; 2024 MyWebsite. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
         </div>
     </footer>
 </body>
