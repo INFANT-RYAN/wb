@@ -1,179 +1,349 @@
+/* General Reset and Basic Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #d5e4e6;
-    margin: 0%;
-    font-family: Arial, sans-serif;
-    justify-content: center;
-    align-items: center;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
 }
-.center{
-    margin-left: auto;
-    margin-right: auto;
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
-h2{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: #072c30;
-    margin-bottom: 3px;
+
+ul {
+    list-style: none;
 }
-.About p{
-    margin-top: 3px;
-    margin-bottom: 30px;
-}
-.About{
-    margin-top: 5px;
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.container{
-    margin: 10px;
-}
+
+/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3498db;
-    padding: 10px 20px;
+    background-color: #34495e;
+    padding: 15px 30px;
+    color: #ecf0f1;
 }
+
 .logo {
     font-size: 24px;
-    color: #072c30;
     font-weight: bold;
 }
+
 .nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
 }
+
 .nav-links li {
     margin-left: 20px;
 }
+
 .nav-links a {
-    color: #072c30;
-    text-decoration: none;
+    color: #ecf0f1;
     padding: 8px 16px;
-    transition: background-color 0.3s ease;
-    display: block;
-}
-.nav-links a:hover {
-    
-    color:white;
     border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
-.card,.card1{
-    text-align: center;
+
+.nav-links a:hover {
+    background-color: #2c3e50;
 }
-.card img{
-    padding-right: 20px;
-    float: left;
-    border-radius: 100px;
-    width: 80px;
-    margin: auto;
-    margin-left: 20px;
-}
-.card p{
-    margin-top: 0px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.card h4{
-    margin-bottom: 0px;
-}
-.card1 img{
-    padding-right: 25px;
-    float: left;
-    border-radius: 100px;
-    width: 70px;
-    padding-left: 5px;
-    margin: auto;
-    margin-left: 20px;
-}
-.card1 p{
-    margin-top: 0px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.card1 h4{
-    margin-bottom: 0px;
-}
-.form_container{
-    text-align: center;
-    justify-content: center;
-    margin:10px;
-}
-table{
-    text-align: center;
-    
-}
-form{
-    margin-top: 0px;
-    
-}
-input{
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-    border: 1px solid #a09d9d;
-    border-radius: 5px;
-    font-size: 14px;
-    
-}
-input:focus{
-    border-color: #6a82fb;
-    box-shadow: 0 0 5px rgba(106, 130, 251, 0.5);
-    outline: none;
-}
-textarea{
-    height:4cm;
-    width: 618px;
-    padding: 15px;
-    border: 1px solid #a09d9d;
-    border-radius: 5px;
-    font-size: 14px;
-}
-button{
+
+/* Hero Section */
+.hero {
     background-color: #3498db;
-    outline: #0f1866;
-    color:white;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ecf0f1;
+    color: #34495e;
+    padding: 10px 20px;
     border-radius: 5px;
-    padding: 5px;
-    margin-top: 15px;
-    margin-left: 13.5cm;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
-button:hover{
-    color: #0f1866;
-    background-color: white;
+
+.cta-button:hover {
+    background-color: #bdc3c7;
 }
-textarea:focus {
-    border-color: #6a82fb;
-    box-shadow: 0 0 5px rgba(106, 130, 251, 0.5);
-    outline: none;
+
+/* Sections */
+section {
+    padding: 40px 20px;
 }
-.footer-container {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #072c30;
-    justify-content: right;
-    background-color: #3498db;
-    display:flex;
-    padding-left: 20px ;
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
 }
-.product {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-    max-width: 600px;
-    margin: auto;
+
+/* About Section */
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
 }
-.product img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 20px;
+
+/* Skills Section */
+.skills {
+    background-color: #fff;
+    padding: 40px 20px;
 }
-.product h2 {
+
+.skill {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.skill h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: #3498db;
 }
-.product p {
+
+.skill p {
     font-size: 1rem;
-    color: #666;
+    color: #7f8c8d;
+}
+
+/* Education and Certifications */
+.education, .certifications {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.education-item, .certification-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.education-item h3, .certification-item h3 {
+    font-size: 1.5rem;
+    color: #3498db;
+}
+
+.education-item p, .certification-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 40px 20px;
+}
+
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #3498db;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #ecf0f1;
+    padding: 40px 20px;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.author {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer */
+.footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    font-size: 0.9rem;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #3498db;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        margin: 5px 0;
+    }
+
+    .hero {
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .about, .skills, .education, .certifications, .portfolio, .testimonials, .contact {
+        padding: 20px;
+    }
+
+    .contact form {
+        max-width: 100%;
+    }
+
+    .contact textarea {
+        height: 120px;
+    }
+
+    .footer-container {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .footer-container p {
+        font-size: 0.8rem;
+    }
 }
