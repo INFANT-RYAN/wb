@@ -77,11 +77,11 @@
         <h2>Contact Us</h2>
         <p>For more info on getting started please contact us.</p>
         <form>
-            <input type="text" placeholder="Name">
-            <input type="tel" placeholder="Ph. no.">
-            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Name" id="name">
+            <input type="tel" placeholder="Ph. no." id="phno">
+            <input type="email" placeholder="Email" id="mail">
             <textarea name="msg" id="msg" placeholder="Message"></textarea>
-            <button type="submit">Send Message</button>
+            <button type="submit" onclick="validate()">Send Message</button>
         </form>
     </section>
     <footer class="footer">
@@ -93,5 +93,6 @@
             </ul>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
